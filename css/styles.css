@@ -84,6 +84,7 @@ html:not([data-scroll='0']) #navbar{
   height:22px;
   width:22px;
   cursor: pointer;
+  display: none;
 }
 
 #background{
