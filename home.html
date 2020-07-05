@@ -1,12 +1,70 @@
-<!DOCYTPE html>
+<!DOCTYPE html>
 <head>
-  <title>KodingKat Minecraft - Home</title>
-</html>
-<body>
-  <div id="navbar">Navbar</div>
-  <image id="splash">image</image>
-  
-  <div id="content">Content</div>
+    <title>KodingKat Minecraft - Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/icon.png">
+</head>
 
-  <div id="footer">Twitter Youtube</div>
+<body>
+    <div id="navbar">
+      <ul id="navbar_list">
+          <li class="nav_list"><a class="page_link selected" href="home.html">Home</a></li>
+          <li class="nav_list"><a class="page_link" href="datapacks.html">Datapacks</a></li>
+          <li class="nav_list"><a class="page_link" href="resourcepacks.html">Resourcepacks</a></li>
+          <li class="nav_list"><a class="page_link" href="maps.html">Maps</a></li>
+          <li class="nav_list"><a class="page_link" href="videos.html">Videos</a></li>
+          <li class="nav_list"><a class="material-icons page_link" id="images/search">search</a></li>
+      </ul>
+    </div>
+
+
+    <div id="holder">
+      <img id="background" src="images/background.png">
+      <div class="title center">
+        <h1>Home</h1>
+      </div>
+      
+      <div class="content content_sub">
+        <div class="c_left_l">
+          <iframe class='video' src=''></iframe>
+        </div>
+        <div class="c_right_s">
+          <h2>Latest Video</h2>
+          <p>NO VIDEOS RELEASED YET</p>
+          <P>I am working on polishing up my data-packs before I record videos on them.</P>
+        </div>
+      </div>
+      <div class="content content_sub">
+        <div class="c_left_s">
+          <h2>Submission</h2>
+          <p>If you wish for me to create an resorucepack or datapack for minecraft, submit your idea through the form on the right.</p>
+          <br>
+          <P>Try to keep the theme of your idea within the natural vanilla game</P>
+          <p>OR</p>
+          <p>theme your idea around a central topic or idea.</p>
+          <br>
+          <p>I will credit you for the idea if you include your name.</p>
+        </div>
+        <iframe class="embed c_right_l" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSfzzHlBRxuQhKPUM6jgDvAs4Ax7c5wLmF-xo_iaWLzkatq-gw/viewform?embedded=true"></iframe>
+      </div>
+      <div id="footer" class="content">
+        <hr>
+        <div id="socialLinks">
+          <a class="link socialLink" href="https://twitter.com/koding_kat"><img class="social" src="images/twitterIcon.png">  Twitter</a>
+          <a class="link socialLink" href="https://www.youtube.com/channel/UCSepVj6I2OwrL9jtwADY-qA"><img class="social" src="images/youtubeIcon.png">  Youtube</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      document.documentElement.dataset.scroll = window.scrollY;
+      document.addEventListener('scroll', () => {
+        if(window.scrollY>25){
+          document.documentElement.dataset.scroll = window.scrollY;
+        }else{
+          document.documentElement.dataset.scroll = 0;
+        }
+      });
+    </script>
 </body>
