@@ -1,10 +1,10 @@
 @font-face {
   font-family: DPSDbeyond;
-  src:url('file:///home/chronos/u-d8bb1cb4362e50f484ddd1260e9b2b44d367cb00/MyFiles/Downloads/fonts/DPSDbeyond.otf');
+  src:url('/fonts/DPSDbeyond.otf');
 }
 @font-face {
   font-family: SoftwareTester7;
-  src:url('file:///home/chronos/u-d8bb1cb4362e50f484ddd1260e9b2b44d367cb00/MyFiles/Downloads/fonts/software_tester_7.ttf');
+  src:url('/fonts/software_tester_7.ttf');
 }
 
 
