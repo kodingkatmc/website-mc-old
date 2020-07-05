@@ -106,7 +106,7 @@ html:not([data-scroll='0']) #navbar{
 .title{
   background-color: #323232;
   color: white;
-  font-size: 34px;
+  font-size: 68px;
   font-family: SoftwareTester7;
   display: block;
   padding: 2vh;
@@ -136,6 +136,8 @@ h3{
   font-weight: 100;
   font-size: 24px;
   font-family: DPSDbeyond;
+  margin-top: 0;
+  padding-top: 24px;
 }
 p, li{
   font-size: 18px;

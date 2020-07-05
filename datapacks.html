@@ -24,10 +24,9 @@
 
     <div id="holder">
       <img id="background" src="images/background.png">
+      <div class="content"></div>
       <div class="content">
-        <div class="title right">
-          <h1>Augment Vanilla</h1>
-        </div>
+        <h1 class="title right">Augment Vanilla</h1>
         <div class="content_sub">
           <div class="c_left_s">
             <p>This is my AugmentVanilla datapack from my improving minecraft series.  The datapack improves the vanilla minecraft games with some minor tweaks and changes.  This includes vein-miner, falling grass and dirt allowing for new traps, customization arrow trails, tweaked mobs, custom recipes, and more.</p>
@@ -139,11 +138,9 @@
           </div>
         </div>
       </div>
-      
+
       <div class="content">
-        <div class="title left">
-          <h1>Iron Man</h1>
-        </div>
+        <h1 class="title left">Iron Man</h1>
         <div class="content_sub">
           <div class="c_left_l carousel">
             <img src='images/iron_man/ (1).png'>
@@ -174,11 +171,9 @@
           </div>
         </div>
       </div>
-      
+
       <div class="content">
-        <div class="title right">
-          <h1>Cave Creation</h1>
-        </div>
+        <h1 class="title right">Cave Creation</h1>
         <div class="content_sub">
           <div class="c_left_s">
             <p>Create custom cave networks with this datapack.</p>
@@ -190,6 +185,7 @@
           </div>
         </div>
       </div>
+
       <div id="footer" class="content">
         <hr>
         <div id="socialLinks">
@@ -207,7 +203,7 @@
           document.documentElement.dataset.scroll = 0;
         }
       });
-      
+
       let coll = document.getElementsByClassName("collapsible_head");
       //console.log(coll);
       for (i = 0; i < coll.length; i++) {
@@ -215,7 +211,7 @@
         let next = this.nextElementSibling;
         //console.log(next);
         $(next).slideToggle(1000);
-        
+
         if (this.children[0].textContent == "expand_less") {
           this.children[0].textContent = "expand_more";
         } else {
