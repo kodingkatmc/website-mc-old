@@ -15,16 +15,51 @@
     opacity: 0;
   }
 }
+@keyframes display_l {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  15% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 .carousel{
   width: 40vw;
   height: 25vw;
   display: block;
 }
-.carousel > img {
+.carousel_4 > img {
   position: absolute;
   opacity: 0;
-  animation: display 10s infinite;
+  animation: display 8s infinite;
+  width:40%;
+}
+.carousel_6 > img {
+  position: absolute;
+  opacity: 0;
+  animation: display 12s infinite;
+  width:40%;
+}
+.carousel_9 > img {
+  position: absolute;
+  opacity: 0;
+  animation: display 18s infinite;
+  width:40%;
+}
+.carousel_25 > img {
+  position: absolute;
+  opacity: 0;
+  animation: display_l 50s infinite;
   width:40%;
 }
 
