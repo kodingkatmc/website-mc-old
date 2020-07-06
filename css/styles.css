@@ -41,15 +41,19 @@ a:visited{
   word-wrap: break-word;
 }
 
-#navbar{
+.navbar{
   background-color: #525252;
-  height:80px;
+  min-height:80px;
   width:100%;
   font-family: SoftwareTester7;
   position: fixed;
   z-index: 2;
 }
-html:not([data-scroll='0']) #navbar{
+.navbar2{
+  z-index: -1;
+  position: inherit;
+}
+html:not([data-scroll='0']) .navbar{
   background-color: #212121;
 }
 #navbar_list{
@@ -92,10 +96,6 @@ html:not([data-scroll='0']) #navbar{
   margin-bottom: -4px;
 }
 
-#holder{
-  top:80px;
-  position: relative;
-}
 .content_sub{
   display: flex;
   padding-top: 2vh;
@@ -226,4 +226,9 @@ hr{
 #socialLinks{
   display: flex;
   align-items: center;
+}
+@media (max-aspect-ratio: 1/1){
+  #socialLinks{
+    display: block;
+  }
 }
