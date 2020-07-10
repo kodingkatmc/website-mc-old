@@ -19,6 +19,17 @@ a:visited{
   border: none;
   height: 500px;
 }
+img{
+  width: 40vw;
+  height: 22.5vw;
+}
+
+@media (max-aspect-ratio: 1/1) {
+  img{
+    width: 70vw;
+    height: 39vw;
+  }
+}
 .video{
   border: none;
   width: 39%;
