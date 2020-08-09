@@ -199,6 +199,10 @@ p, li{
 .hidden{
   list-style-type: none;
 }
+.pack{
+  width: 20vw;
+  height: 20vw;
+}
 .phone{
   display: none;
 }
@@ -210,10 +214,6 @@ p, li{
     display: none;
   }
 }
-.pack{
-  width: 20vw;
-}
-
 #footer{
   width: 100%;
   display:inline-block;
