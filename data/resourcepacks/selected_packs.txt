@@ -1,77 +1,84 @@
 Vanilla Tweaks Resource Pack
-Version: 1.15
+Version: 1.16
 Packs:
+	ClassicNetheriteArmor
 	BlackNetherBricks
 	DifferentStems
-	EndlessEndRods
-	SidewaysNuggets
+	SofterWool
+	PlainLeatherArmor
 	RedIronGolemFlowers
+	EndlessEndRods
+	UniqueDyes
+	BetterBedrock
 	CircularSunandMoon
 	ClearerWater
-	BetterBedrock
 	WhiterSnow
-	LowerGrass
-	LowerMycelium
-	LowerPaths
-	ShorterTallGrass
 	ShorterGrass
-	LowerSnow
-	LowerPodzol
+	ShorterTallGrass
+	VariatedCobblestone
 	VariatedDirt
+	VariatedGrass
+	VariatedLogs
 	VariatedGravel
+	VariatedMycelium
+	VariatedTerracotta
 	VariatedPlanks
 	VariatedStone
-	VariatedTerracotta
 	VariatedUnpolishedStones
 	ConnectedBookshelves
+	QuieterDispensersDroppers
 	QuieterPistons
 	QuieterCows
 	QuieterNetherPortals
-	QuieterVillagers
-	QuieterMinecarts
-	QuieterGhasts
-	QuieterDispensersDroppers
-	QuieterEndermen
-	QuieterFire
-	QuieterShulkers
-	QuieterWater
+	FullAgeCropMarker
 	Age25Kelp
 	MineProgressBar
-	StickyPistonSides
-	DirectionalHoppers
-	DiminishingTools
-	BetterObservers
-	BrewingGuide
-	RedstonePowerLevels
+	ClearBannerPatterns
+	HungerPreview
 	CleanRedstoneDust
+	RedstonePowerLevels
+	NoteblockBanners
+	BetterObservers
+	DiminishingTools
+	DirectionalHoppers
+	StickyPistonSides
 	VisibleTripwires
+	VisualHoney
+	UnobtrusiveRain
 	UnobtrusiveScaffolding
-	BorderlessGlass
-	CleanerWorldBorder
-	CleanIce
-	TransparentPumpkin
 	LowerShield
 	LowerFire
+	TransparentPumpkin
+	CleanerWorldBorder
 	AlternateEnchantGlint
 	SmallerUtilities
-	BorderlessStainedGlass
-	UnobtrusiveRain
 	3DTiles
 	3DLadders
 	3DRails
 	3DSugarcane
 	3DIronBars
 	3DLilyPads
-	3DStonecutters
-	3DVines
 	3DDoors&Trapdoors
+	3DVines
 	MoreCrosshairs-Circle
 	PingColorIndicator
 	LargeAttackIndicator
-	NoJavaEditionTitle
 	SmootherFont
+	NoJavaEditionTitle
 	NumberedHotbar
-	OldLava
+	BlackstoneBG
+	ClassicPanorama
 	OldDamageSounds
-	PoppyToRose
-	BlueWidgetsHighlight
+	JappaSigns
+	JappaSpecIcons
+	BlazeFix
+	EffectBoxFix
+	ItemHoldFix
+	DoubleSlabFix
+	ProperBreakParticles
+	TripwireHookFix
+	BrewingStandIconsFix
+	StonecutterFix
+	VillagerCloakFix
+	GuardianPixelFix
+	SmokerFix
