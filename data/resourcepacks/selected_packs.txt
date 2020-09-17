@@ -1,35 +1,42 @@
 Vanilla Tweaks Resource Pack
 Version: 1.16
 Packs:
-	ClassicNetheriteArmor
+	BushyLeaves
 	BlackNetherBricks
 	DifferentStems
-	SofterWool
-	PlainLeatherArmor
 	RedIronGolemFlowers
+	SofterWool
+	BetterParticles
 	EndlessEndRods
-	UniqueDyes
+	GreenJungleWood
+	CrimsonerCrimson
+	SmootherWarpedPlanks
+	FlintTippedArrows
+	SplashXpBottle
 	BetterBedrock
 	CircularSunandMoon
 	ClearerWater
+	SmootherStones
 	WhiterSnow
+	LowerGrass
+	LowerMycelium
+	LowerPaths
+	LowerPodzol
+	LowerCrimsonNylium
+	LowerWarpedNylium
 	ShorterGrass
 	ShorterTallGrass
-	VariatedCobblestone
 	VariatedDirt
-	VariatedGrass
+	VariatedCobblestone
 	VariatedLogs
+	VariatedMushroomBlocks
+	VariatedEndStone
 	VariatedGravel
-	VariatedMycelium
-	VariatedTerracotta
 	VariatedPlanks
 	VariatedStone
+	VariatedTerracotta
 	VariatedUnpolishedStones
-	ConnectedBookshelves
-	QuieterDispensersDroppers
-	QuieterPistons
-	QuieterCows
-	QuieterNetherPortals
+	VariatedBookshelves+ConnectedBookshelves
 	FullAgeCropMarker
 	Age25Kelp
 	MineProgressBar
@@ -37,48 +44,55 @@ Packs:
 	HungerPreview
 	CleanRedstoneDust
 	RedstonePowerLevels
-	NoteblockBanners
-	BetterObservers
 	DiminishingTools
+	BetterObservers
 	DirectionalHoppers
 	StickyPistonSides
 	VisibleTripwires
 	VisualHoney
+	VisualSaplingGrowth
+	NoteblockBanners
+	UnobtrusiveSnow
 	UnobtrusiveRain
+	UnobtrusiveParticles
 	UnobtrusiveScaffolding
-	LowerShield
+	BorderlessGlass
+	BorderlessStainedGlass
 	LowerFire
+	LowerShield
 	TransparentPumpkin
+	NoVignette
 	CleanerWorldBorder
 	AlternateEnchantGlint
 	SmallerUtilities
 	3DTiles
 	3DLadders
-	3DRails
 	3DSugarcane
-	3DIronBars
+	3DRails
 	3DLilyPads
-	3DDoors&Trapdoors
+	3DIronBars
+	3DStonecutters
 	3DVines
 	MoreCrosshairs-Circle
 	PingColorIndicator
 	LargeAttackIndicator
-	SmootherFont
-	NoJavaEditionTitle
 	NumberedHotbar
-	BlackstoneBG
-	ClassicPanorama
+	NoJavaEditionTitle
+	SmootherFont
+	AndesiteBackground
+	PackPngPanorama
 	OldDamageSounds
 	JappaSigns
-	JappaSpecIcons
-	BlazeFix
+	JappaPaintingBack
 	EffectBoxFix
-	ItemHoldFix
-	DoubleSlabFix
-	ProperBreakParticles
-	TripwireHookFix
 	BrewingStandIconsFix
-	StonecutterFix
-	VillagerCloakFix
-	GuardianPixelFix
+	JappaToasts
+	BlazeFix
+	SoulSoilSoulCampfire
+	NicerFastLeaves
+	ProperBreakParticles
+	ItemHoldFix
 	SmokerFix
+	GuardianPixelFix
+	VillagerCloakFix
+	TripwireHookFix
