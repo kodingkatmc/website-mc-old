@@ -23,7 +23,6 @@ img{
   width: 40vw;
   height: 22.5vw;
 }
-
 @media (max-aspect-ratio: 1/1) {
   img{
     width: 70vw;
@@ -32,8 +31,8 @@ img{
 }
 .video{
   border: none;
-  width: 39vw;
-  height: 22vw;
+  min-width: 39vw;
+  min-height: 22vw;
 }
 .link{
   color: black;
@@ -51,7 +50,14 @@ img{
   background-color: lightgrey;
   word-wrap: break-word;
 }
-
+#holder{
+  padding-top: 80px;
+}
+@media (max-aspect-ratio: 1/1) {
+  #holder{
+    padding-top: 106px;
+  }
+}
 .navbar{
   background-color: #525252;
   min-height:80px;
@@ -59,10 +65,6 @@ img{
   font-family: SoftwareTester7;
   position: fixed;
   z-index: 2;
-}
-.navbar2{
-  z-index: -1;
-  position: inherit;
 }
 html:not([data-scroll='0']) .navbar{
   background-color: #212121;
@@ -95,15 +97,10 @@ html:not([data-scroll='0']) .navbar{
 .selected{
   font-weight: bold;
 }
-#search{
-  height:22px;
-  width:22px;
-  cursor: pointer;
-  display: none;
-}
 
 #background{
   width:100%;
+  height:auto;
   margin-bottom: -4px;
 }
 .content_sub{
