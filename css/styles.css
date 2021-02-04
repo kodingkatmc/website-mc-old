@@ -106,14 +106,17 @@ html:not([data-scroll='0']) .navbar{
   width:100%;
   margin-bottom: -4px;
 }
-
 .content_sub{
   display: flex;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
 .content:nth-child(odd){
-  background-color: #f2f2f2;
+  background-color: #dfdfdf;
+}
+:target::before{
+  padding-top: 79px;
+  margin-top: -79px;
 }
 .title{
   background-color: #323232;
@@ -217,7 +220,6 @@ p, li{
 #footer{
   width: 100%;
   display:inline-block;
-  padding-top: 0;
 }
 hr{
   margin-top: 0;
