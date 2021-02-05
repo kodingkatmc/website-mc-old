@@ -94,9 +94,6 @@ html:not([data-scroll='0']) .navbar{
   border-width: 1px;
   border-bottom-style: solid;
 }
-.selected{
-  font-weight: bold;
-}
 
 #background{
   width:100%;
@@ -118,7 +115,7 @@ html:not([data-scroll='0']) .navbar{
 .title{
   background-color: #323232;
   color: white;
-  font-size: 68px;
+  font-size: min(68px,12vw);
   font-family: SoftwareTester7;
   display: block;
   padding: 2vh;
