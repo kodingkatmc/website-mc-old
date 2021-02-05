@@ -61,13 +61,17 @@
 
 <body>
   <div class="navbar">
-    <ul id="navbar_list">
-      <li class="nav_list"><a class="page_link" href="home.html">Home</a></li>
-      <li class="nav_list"><a class="page_link selected" href="datapacks.html">Datapacks</a></li>
-      <li class="nav_list"><a class="page_link" href="resourcepacks.html">Resourcepacks</a></li>
-      <li class="nav_list"><a class="page_link" href="maps.html">Maps</a></li>
-      <li class="nav_list"><a class="page_link" href="videos.html">Videos</a></li>
-    </ul>
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+    
+    <div class=nav_list>
+      <a class="page_link" href="home.html">Home</a>
+      <a class="page_link selected" href="datapacks.html">Datapacks</a>
+      <a class="page_link" href="resourcepacks.html">Resourcepacks</a>
+      <a class="page_link" href="maps.html">Maps</a>
+      <a class="page_link" href="videos.html">Videos</a>
+    </div>
+    
   </div>
 
 
@@ -321,6 +325,15 @@
       }
     });
 
+    function menu() {
+      var x = document.getElementById("");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    
     let coll = document.getElementsByClassName("collapsible_head");
     //console.log(coll);
     for (i = 0; i < coll.length; i++) {

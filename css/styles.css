@@ -107,7 +107,7 @@ html:not([data-scroll='0']) .navbar{
   text-decoration: none;
   font-size: 28px;
   font-weight: 100;
-  padding-left: 12px;
+  margin-left: 15px;
 }
 .page_link:visited{
   color:white;
