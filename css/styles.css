@@ -11,6 +11,10 @@
 body{
   margin:0;
   font-family: Lato;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+  display:none;
 }
 a:visited{
   color:blue;
@@ -53,15 +57,10 @@ img{
 #holder{
   padding-top: 80px;
 }
-@media (max-aspect-ratio: 1/1) {
-  #holder{
-    padding-top: 106px;
-  }
-}
 .navbar{
   background-color: #525252;
-  min-height:80px;
-  width:100%;
+  width:100vw;
+  min-height: 80px;
   font-family: SoftwareTester7;
   position: fixed;
   z-index: 2;
@@ -69,22 +68,46 @@ img{
 html:not([data-scroll='0']) .navbar{
   background-color: #212121;
 }
-#navbar_list{
-  float: right;
-  margin: 0;
-}
 .nav_list{
-  display: inline-block;
-  padding-right: 20px;
-  padding-top: 28px;
+  padding: 28px;
   vertical-align: top;
+  float: right;
 }
+
+
+
+.navbar label, #hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 750px){
+  
+  .navbar label{ 
+    display: inline-block;
+    float: right;
+    padding-right: 28px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .nav_list a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+
+  .nav_list { display: none; }
+  .navbar input:checked ~ .nav_list { display: block; }
+}
+
+
 .page_link{
   margin: 0;
   color:white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 100;
+  padding-left: 12px;
 }
 .page_link:visited{
   color:white;
@@ -93,6 +116,9 @@ html:not([data-scroll='0']) .navbar{
   border: white;
   border-width: 1px;
   border-bottom-style: solid;
+}
+.selected{
+  font-weight: bold;
 }
 
 #background{
