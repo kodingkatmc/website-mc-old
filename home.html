@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <meta name="application-name" content="KodingKat Minecraft">
+  <meta name="description" content="KodingKat's minecraft website homepage.">
+  <meta name="author" content="KodingKat">
+  <meta name="keywords" content="Minecraft,Commands,Datapacks,Resourcepacks,Maps,Videos">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>KodingKat Minecraft - Home</title>
+  <style type="text/css">
+    /* latin-ext */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwaPGR_p.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/lato/v17/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    /* fallback */
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/materialicons/v76/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+    }
+
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  </style>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.ico">
+</head>
+
+<body>
+  <div class="navbar">
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+    
+    <div class=nav_list>
+      <a class="page_link selected" href="home.html">Home</a>
+      <a class="page_link" href="datapacks.html">Datapacks</a>
+      <a class="page_link" href="resourcepacks.html">Resourcepacks</a>
+      <a class="page_link" href="maps.html">Maps</a>
+      <a class="page_link" href="videos.html">Videos</a>
+    </div>
+    
+  </div>
+
+
+
+  <div id="holder">
+    <img alt="splash image" id="background" src="images/background.jpg">
+    <div class="content"></div>
+    <div class="content">
+      <h1 class="title center">Home</h1>
+      <div class="content_sub">
+        <div class="c_left_l">
+          <iframe title="Youtube Video - Installing A Datapack" class='video' src='https://www.youtube.com/embed/qfSemGp22gc'></iframe>
+        </div>
+        <div class="c_right_s">
+          <h2>How to Install a Datapack</h2>
+          <p>Explains how to install my datapacks into your minecraft world.</P>
+        </div>
+      </div>
+      <div class="content_sub">
+        <div class="c_left_s">
+          <h2>Submission</h2>
+          <p>If you wish for me to create an resorucepack or datapack for minecraft, submit your idea through the form on the right/below.</p>
+          <br>
+          <P>Try to keep the theme of your idea within the natural vanilla game</P>
+          <p>OR</p>
+          <p>theme your idea around a central topic or idea.</p>
+          <br>
+          <p>I will credit you for the idea if you include your name.</p>
+        </div>
+        <iframe title="Idea Submission Form" class="embed c_right_l" scrolling="no" src="https://docs.google.com/forms/d/e/1FAIpQLSfzzHlBRxuQhKPUM6jgDvAs4Ax7c5wLmF-xo_iaWLzkatq-gw/viewform?embedded=true"></iframe>
+      </div>
+    </div>
+    <div id="footer" class="content">
+      <hr>
+      <div id="socialLinks">
+        <a class="link socialLink" href="https://twitter.com/koding_kat"><img alt="twitter" class="social" src="images/twitterIcon.png">  Twitter</a>
+        <a class="link socialLink" href="https://www.youtube.com/channel/UCSepVj6I2OwrL9jtwADY-qA"><img alt="youtube" class="social" src="images/youtubeIcon.png">  Youtube</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    document.documentElement.dataset.scroll = window.scrollY;
+    document.addEventListener('scroll', () => {
+      if(window.scrollY>25){
+        document.documentElement.dataset.scroll = window.scrollY;
+      }else{
+        document.documentElement.dataset.scroll = 0;
+      }
+    });
+    
+    function menu() {
+      var x = document.getElementById("");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+@font-face {
+  font-family: DPSDbeyond;
+  src:url('https://kodingkatmc.github.io/u/fonts/DPSDbeyond.otf');
+}
+@font-face {
+  font-family: SoftwareTester7;
+  src:url('https://kodingkatmc.github.io/u/fonts/software_tester_7.ttf');
+}
+
+
+body{
+  margin:0;
+  font-family: Lato;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+  display:none;
+}
+a:visited{
+  color:blue;
+}
+.embed{
+  border: none;
+  height: 500px;
+}
+img{
+  width: 40vw;
+  height: 22.5vw;
+}
+@media (max-aspect-ratio: 1/1) {
+  img{
+    width: 70vw;
+    height: 39vw;
+  }
+}
+.video{
+  border: none;
+  min-width: 39vw;
+  min-height: 22vw;
+}
+.link{
+  color: black;
+  margin-bottom: 1vh;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.code{
+  font-family: DPSDbeyond;
+  background-color: lightgrey;
+  word-wrap: break-word;
+}
+#holder{
+  padding-top: 80px;
+}
+.navbar{
+  background-color: #525252;
+  width:100vw;
+  min-height: 80px;
+  font-family: SoftwareTester7;
+  position: fixed;
+  z-index: 2;
+}
+html:not([data-scroll='0']) .navbar{
+  background-color: #212121;
+}
+.nav_list{
+  padding: 28px;
+  vertical-align: top;
+  float: right;
+}
+
+
+
+.navbar label, #hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 750px){
+  
+  .navbar label{ 
+    display: inline-block;
+    float: right;
+    padding-right: 28px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .nav_list a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+
+  .nav_list { display: none; }
+  .navbar input:checked ~ .nav_list { display: block; }
+}
+
+
+.page_link{
+  margin: 0;
+  color:white;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 100;
+  margin-left: 15px;
+}
+.page_link:visited{
+  color:white;
+}
+.page_link:hover{
+  border: white;
+  border-width: 1px;
+  border-bottom-style: solid;
+}
+.selected{
+  font-weight: bold;
+}
+
+#background{
+  width:100%;
+  height:auto;
+  margin-bottom: -4px;
+}
+.content_sub{
+  display: flex;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.content:nth-child(odd){
+  background-color: #dfdfdf;
+}
+:target::before{
+  padding-top: 79px;
+  margin-top: -79px;
+}
+.title{
+  background-color: #323232;
+  color: white;
+  font-size: min(68px,12vw);
+  font-family: SoftwareTester7;
+  display: block;
+  padding: 2vh;
+}
+.left{
+  text-align: left;
+  padding-left: 15%;
+}
+.center{
+  text-align: center;
+  display: block;
+}
+.right{
+  text-align: right;
+  padding-right: 15%;
+}
+h1{
+  font-weight: 100;
+  margin: 0;
+}
+h2{
+  font-weight: 100;
+  font-size: 36px;
+  font-family: DPSDbeyond;
+}
+h3{
+  font-weight: 100;
+  font-size: 24px;
+  font-family: DPSDbeyond;
+  margin-top: 0;
+  padding-top: 24px;
+}
+p, li{
+  font-size: 18px;
+}
+.c_left_s{
+  width:29%;
+  margin-left: 15%;
+  margin-right: 1%;
+}
+.c_left_l{
+  width:39%;
+  margin-left: 15%;
+  margin-right: 1%;
+}
+.c_right_s{
+  width:29%;
+  margin-right: 15%;
+  margin-left: 1%;
+}
+.c_right_l{
+  width:39%;
+  margin-right: 15%;
+  margin-left: 1%;
+}
+.c_center_l{
+  width:34%;
+  margin-left: 15%;
+  margin-right: 1%;
+}
+.c_center_r{
+  width:34%;
+  margin-right: 15%;
+  margin-left: 1%;
+}
+@media (max-aspect-ratio: 1/1) {
+  .content_sub{
+    display: block;
+  }
+
+  .c_left_l, .c_right_l, .c_left_s, .c_right_s, .c_center_l, .c_center_r{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+.hidden{
+  list-style-type: none;
+}
+.pack{
+  width: 20vw;
+  height: 20vw;
+}
+.phone{
+  display: none;
+}
+@media (max-aspect-ratio: 1/1){
+  .phone{
+    display: inherit;
+  }
+  .phoneHide{
+    display: none;
+  }
+}
+#footer{
+  width: 100%;
+  display:inline-block;
+}
+hr{
+  margin-top: 0;
+}
+.social{
+  height: 75px;
+  width: 75px;
+}
+.socialLink{
+  color: black;
+  margin-right: 17vw;
+  margin-left: 17vw;
+}
+.socialLink:visited{
+  color: black;
+}
+#socialLinks{
+  display: flex;
+  align-items: center;
+}
+@media (max-aspect-ratio: 1/1){
+  #socialLinks{
+    display: block;
+  }
+}
