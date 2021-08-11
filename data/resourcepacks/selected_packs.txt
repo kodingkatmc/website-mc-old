@@ -1,98 +1,109 @@
 Vanilla Tweaks Resource Pack
-Version: 1.16
+Version: 1.17
 Packs:
-	BushyLeaves
 	BlackNetherBricks
 	DifferentStems
+	BrownLeather
 	RedIronGolemFlowers
-	SofterWool
 	BetterParticles
+	HDShieldBanners
 	EndlessEndRods
-	GreenJungleWood
+	AccurateSpyglass
 	CrimsonerCrimson
-	SmootherWarpedPlanks
+	UniqueDyes
 	FlintTippedArrows
+	BedIcons
 	SplashXpBottle
+	SmootherWarpedPlanks
+	GoldenCrown
+	EnderDragonElytra
+	WavyLeaves
+	DarkerDarkOakLeaves
+	WavyWater
 	BetterBedrock
 	CircularSunandMoon
-	ClearerWater
-	SmootherStones
+	FancySunflowers
+	ShorterGrass
 	WhiterSnow
+	ShorterTallGrass
 	LowerGrass
 	LowerMycelium
 	LowerPaths
-	LowerPodzol
 	LowerCrimsonNylium
+	LowerPodzol
 	LowerWarpedNylium
-	ShorterGrass
-	ShorterTallGrass
 	VariatedDirt
 	VariatedCobblestone
+	VariatedBricks
 	VariatedLogs
 	VariatedMushroomBlocks
-	VariatedEndStone
-	VariatedGravel
-	VariatedPlanks
 	VariatedStone
 	VariatedTerracotta
+	VariatedPlanks
+	VariatedGravel
+	VariatedEndStone
 	VariatedUnpolishedStones
 	VariatedBookshelves+ConnectedBookshelves
-	FullAgeCropMarker
+	QuieterNetherPortals
+	QuieterEndermen
+	DiminishingTools
 	Age25Kelp
 	MineProgressBar
 	ClearBannerPatterns
 	HungerPreview
-	CleanRedstoneDust
-	RedstonePowerLevels
-	DiminishingTools
-	BetterObservers
-	DirectionalHoppers
 	StickyPistonSides
-	VisibleTripwires
+	DirectionalHoppers
+	DirectionalDispensersDroppers
+	GroovyLevers
+	UnlitRedstoneOre
+	RedstonePowerLevels
+	CleanRedstoneDust
+	BetterObservers
+	CompassLodestone
+	BrewingGuide
 	VisualHoney
 	VisualSaplingGrowth
 	NoteblockBanners
-	UnobtrusiveSnow
-	UnobtrusiveRain
-	UnobtrusiveParticles
-	UnobtrusiveScaffolding
 	BorderlessGlass
 	BorderlessStainedGlass
+	BorderlessTintedGlass
+	UnobtrusiveScaffolding
 	LowerFire
 	LowerShield
-	TransparentPumpkin
 	NoVignette
+	TransparentPumpkin
 	CleanerWorldBorder
 	AlternateEnchantGlint
+	InvisibleTotem
 	SmallerUtilities
-	3DTiles
+	3DChains
 	3DLadders
-	3DSugarcane
 	3DRails
+	3DVines
+	3DMushrooms
 	3DLilyPads
 	3DIronBars
+	3DSugarcane
 	3DStonecutters
-	3DVines
-	MoreCrosshairs-Circle
-	PingColorIndicator
+	MoreCrosshairs-4Angled
+	WitherHearts
 	LargeAttackIndicator
-	NumberedHotbar
+	PingColorIndicator
 	NoJavaEditionTitle
+	NumberedHotbar
 	SmootherFont
-	AndesiteBackground
-	PackPngPanorama
-	OldDamageSounds
-	JappaSigns
-	JappaPaintingBack
-	EffectBoxFix
-	BrewingStandIconsFix
+	DeepslateBG
+	ConsolePanoramaTU70
+	BedrockDriedKelpItem
+	JappaRecipeButton
+	JappaStatsIcons
 	JappaToasts
+	JappaSpecIcons
+	PixelConsistentBat
+	ConsistentOarColors
+	VillagerCloakFix
+	ProperBreakParticles
+	EffectBoxFix
 	BlazeFix
 	SoulSoilSoulCampfire
-	NicerFastLeaves
-	ProperBreakParticles
-	ItemHoldFix
-	SmokerFix
-	GuardianPixelFix
-	VillagerCloakFix
-	TripwireHookFix
+	CatFix
