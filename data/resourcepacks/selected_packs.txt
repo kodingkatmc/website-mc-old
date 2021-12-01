@@ -1,109 +1,117 @@
 Vanilla Tweaks Resource Pack
-Version: 1.17
+Version: 1.18
 Packs:
 	BlackNetherBricks
 	DifferentStems
 	BrownLeather
 	RedIronGolemFlowers
+	EndlessEndRods
 	BetterParticles
 	HDShieldBanners
-	EndlessEndRods
-	AccurateSpyglass
-	CrimsonerCrimson
 	UniqueDyes
 	FlintTippedArrows
+	CrimsonerCrimson
 	BedIcons
 	SplashXpBottle
 	SmootherWarpedPlanks
 	GoldenCrown
 	EnderDragonElytra
-	WavyLeaves
-	DarkerDarkOakLeaves
 	WavyWater
 	BetterBedrock
-	CircularSunandMoon
 	FancySunflowers
 	ShorterGrass
-	WhiterSnow
 	ShorterTallGrass
+	WhiterSnow
+	LowerPaths
+	LowerPodzol
 	LowerGrass
 	LowerMycelium
-	LowerPaths
 	LowerCrimsonNylium
-	LowerPodzol
 	LowerWarpedNylium
 	VariatedDirt
 	VariatedCobblestone
 	VariatedBricks
 	VariatedLogs
 	VariatedMushroomBlocks
+	VariatedUnpolishedStones
+	VariatedPlanks
 	VariatedStone
 	VariatedTerracotta
-	VariatedPlanks
 	VariatedGravel
 	VariatedEndStone
-	VariatedUnpolishedStones
-	VariatedBookshelves+ConnectedBookshelves
-	QuieterNetherPortals
 	QuieterEndermen
+	QuieterNetherPortals
 	DiminishingTools
 	Age25Kelp
 	MineProgressBar
-	ClearBannerPatterns
 	HungerPreview
+	ClearBannerPatterns
 	StickyPistonSides
 	DirectionalHoppers
 	DirectionalDispensersDroppers
 	GroovyLevers
-	UnlitRedstoneOre
 	RedstonePowerLevels
 	CleanRedstoneDust
+	UnlitRedstoneOre
 	BetterObservers
-	CompassLodestone
 	BrewingGuide
+	CompassLodestone
 	VisualHoney
 	VisualSaplingGrowth
 	NoteblockBanners
-	BorderlessGlass
-	BorderlessStainedGlass
-	BorderlessTintedGlass
-	UnobtrusiveScaffolding
-	LowerFire
-	LowerShield
-	NoVignette
-	TransparentPumpkin
-	CleanerWorldBorder
 	AlternateEnchantGlint
-	InvisibleTotem
+	BorderlessTintedGlass
+	BorderlessStainedGlass
+	BorderlessGlass
+	UnobtrusiveScaffolding
+	LowerShield
+	TransparentPumpkin
+	LowerFire
+	TransparentSpyglassOverlay
+	CleanerWorldBorder
+	NoVignette
 	SmallerUtilities
 	3DChains
+	3DAmethyst
+	3DPointedDripstone
 	3DLadders
 	3DRails
+	3DSugarcane
+	3DDoors
+	3DTrapdoors
+	3DIronBars
+	3DLilyPads
 	3DVines
 	3DMushrooms
-	3DLilyPads
-	3DIronBars
-	3DSugarcane
+	3DGlowLichen
 	3DStonecutters
-	MoreCrosshairs-4Angled
-	WitherHearts
+	3DSunMoon
+	MoreCrosshairs-PlusDot
 	LargeAttackIndicator
 	PingColorIndicator
-	NoJavaEditionTitle
+	LiteralGameruleNames
 	NumberedHotbar
+	NoJavaEditionTitle
 	SmootherFont
-	DeepslateBG
-	ConsolePanoramaTU70
-	BedrockDriedKelpItem
+	SmoothBasaltBG
+	JappaToasts
 	JappaRecipeButton
 	JappaStatsIcons
-	JappaToasts
 	JappaSpecIcons
 	PixelConsistentBat
+	CactusBottomFix
+	CocoaBeansTopFix
 	ConsistentOarColors
-	VillagerCloakFix
-	ProperBreakParticles
-	EffectBoxFix
+	PixelConsistentBeaconBeam
 	BlazeFix
 	SoulSoilSoulCampfire
+	PixelConsistentGuardianBeam
+	SlimeParticleFix
+	ProperBreakParticles
+	ItemHoldFix
+	VillagerCloakFix
 	CatFix
+	ConnectedBookshelves
+	VariatedBookshelves
+	BushyLeaves
+	WavyLeaves
